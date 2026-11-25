@@ -1,0 +1,18 @@
+# Fines de línea: LF siempre (los .sh dentro de Docker fallan con CRLF)
+* text=auto eol=lf
+
+# Scripts de Windows
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binarios
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.gz binary
+*.zip binary
+*.pem binary

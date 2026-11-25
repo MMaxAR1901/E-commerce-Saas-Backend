@@ -1,0 +1,9 @@
+# Artefactos generados
+node_modules/
+*.tmp
+
+# Editores y SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

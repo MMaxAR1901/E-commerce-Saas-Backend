@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Tests y herramientas
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Django
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+
+# Secretos y entorno (se versiona solo .env.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editores y SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

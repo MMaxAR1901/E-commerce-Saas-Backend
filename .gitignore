@@ -1,0 +1,16 @@
+# Respaldo temporal del scaffold anterior (solo consulta local)
+_referencia/
+
+# Configuración local de Claude Code
+.claude/settings.local.json
+
+# Secretos y entorno (se versiona solo .env.example)
+.env
+.env.*
+!.env.example
+
+# Editores y SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
